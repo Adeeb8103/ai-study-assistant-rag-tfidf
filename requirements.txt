@@ -1,0 +1,21 @@
+# --- UI ---
+streamlit>=1.36
+pandas>=2.0
+altair>=5.0
+
+# --- Approach 1: modern RAG ---
+openai>=1.40            # used as the OpenRouter client (wire-compatible)
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+torch>=2.0              # backend for sentence-transformers
+
+# --- Approach 2: traditional ---
+scikit-learn>=1.4
+numpy>=1.26
+
+# --- Document handling ---
+pypdf>=4.0
+python-docx>=1.1
+
+# --- Config ---
+python-dotenv>=1.0
